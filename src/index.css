@@ -27,33 +27,11 @@ button,
   font-size: 17px;
   cursor: pointer;
 }
-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
+
 .welcome-btn {
   color: white;
   background-color: cornflowerblue;
   font-size: 20px;
-  margin-top: 20%;
-}
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: cornflowerblue;
-  width: 100%;
-  color: white;
-  padding-left: 10px;
-}
-nav ul {
-  list-style: none;
-}
-nav ul li {
-  display: inline-block;
-  margin-right: 10px;
-  color: white;
+  display: block;
+  margin: 40px auto;
 }
